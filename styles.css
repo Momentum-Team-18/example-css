@@ -1,8 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+
 h1 {
   color: turquoise;
+  font-size: 48px;
+  font-family: Oswald, Georgia, serif;
+  font-weight: 600;
+}
+
+body {
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+}
+
+.header-text {
+  color: hotpink;
+  border: 1px solid silver;
+  border-radius: 10px;
 }
 
 .main-content {
   border: 4px dotted purple;
   padding: 10px;
 }
+
+.header {
+  color: green;
+}
+
+.plant-card {
+  padding: 20px;
+  border: 2px solid turquoise;
+  margin: 10px 0;
+}
+
